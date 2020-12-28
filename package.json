@@ -1,0 +1,19 @@
+{
+  "name": "continents",
+  "version": "1.0.0",
+  "description": "children's rest landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devwork-trifonov/children-s-rest-landing-page.git"
+  },
+  "author": "devwork-trifonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devwork-trifonov/children-s-rest-landing-page/issues"
+  },
+  "homepage": "https://github.com/devwork-trifonov/children-s-rest-landing-page#readme"
+}
