@@ -1,0 +1,5 @@
+{
+  "parser":"@babel/eslint-parser",
+  "plugins": ["prettier","@babel"],
+  "extends": ["plugin:prettier/recommended"]
+  }

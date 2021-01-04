@@ -4,7 +4,10 @@
   "description": "children's rest landing page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --config webpack.config.js --env NODE_ENV=dev --mode development",
+    "build": "webpack --config webpack.config.js --env NODE_ENV=production --mode production",
+    "watch": "webpack --config webpack.config.js --env NODE_ENV=dev --mode development --watch",
+    "start": "webpack serve --config webpack.config.js --env NODE_ENV=dev --mode development "
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,32 @@
   "bugs": {
     "url": "https://github.com/devwork-trifonov/children-s-rest-landing-page/issues"
   },
-  "homepage": "https://github.com/devwork-trifonov/children-s-rest-landing-page#readme"
+  "homepage": "https://github.com/devwork-trifonov/children-s-rest-landing-page#readme",
+  "browserslist": [
+    "since 2015"
+  ],
+  "dependencies": {
+    "@babel/eslint-parser": "^7.12.1",
+    "autoprefixer": "^10.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "postcss-loader": "^4.1.0",
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "css-minimizer-webpack-plugin": "^1.1.5",
+    "cssnano": "^4.1.10",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^5.0.0-beta.1",
+    "mini-css-extract-plugin": "^1.3.3",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^3.11.1"
+  }
 }
