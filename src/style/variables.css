@@ -1,0 +1,13 @@
+:root {
+
+  --color-secondary: #ffaf02;
+  --color-tabs_active: var(--color-secondary);
+  --color-tabs: #d8f0f0;
+  --color-main: #001e28;
+  --color-white: #ffffff;
+  --color-input-border: #d1d1d1;
+  --color-button-hover: #ff9d02;
+
+  --font-family_main: 'circe';
+  --font-family_secondary: 'robotoSlab';
+}

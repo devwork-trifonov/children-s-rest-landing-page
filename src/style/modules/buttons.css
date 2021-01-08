@@ -1,0 +1,25 @@
+.button {
+  width: 270px;
+  height: 55px;
+  border-radius: 28px;
+  border: none;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  font-size: 0.75em;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+}
+
+.button_min {
+  width: 170px;
+  height: 45px;
+  font-size: 0.687em;
+}
+
+.button:hover {
+  box-shadow: 0 3px 10px rgba(255, 157, 2, 0.6);
+  border-radius: 23px;
+  background-color: var(--color-button-hover);
+}

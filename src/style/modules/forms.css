@@ -1,0 +1,45 @@
+.form {
+  text-align: center;
+}
+
+.form>form {
+  padding: 40px 0;
+}
+
+.form>form>input:nth-child(1) {
+  background-image: url('../../img/form_name.png');
+}
+
+.form>form>input:nth-child(2) {
+  margin: 0 1.56%;
+  background-image: url('../../img/form_phone.png');
+}
+
+.form>form>input {
+  width: 270px;
+  height: 55px;
+  border-radius: 28px;
+  border: 1px solid var(--color-input-border);
+  background-color: var(--color-white);
+  background-repeat: no-repeat;
+  background-position: 30px 19px;
+  padding: 0 30px 0 61px;
+  outline: none;
+}
+
+.form__call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__call>.phone-icon {
+  margin: 0 15px 0 32px;
+  padding-top: 5px;
+}
+
+.form__call>div>a {
+  font-family: var(--font-family_secondary);
+  font-size: 1.25em;
+  font-weight: 700;
+}
